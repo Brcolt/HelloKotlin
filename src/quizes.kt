@@ -44,8 +44,13 @@ fun whatShouldIDoToday(
 ) : String {
 
     return when {
-        mood == "happy" && weather == "Sunny" -> "Go for walk"
+       myMood(mood) && weatherCheck(weather) -> "Go to walk!"
         else -> "Stay home and read"
     }
 }
+
+fun myMood(mood: String) =  mood == "Sunny"
+
+
+fun weatherCheck(weather: String) = weather == "Sunny"
 

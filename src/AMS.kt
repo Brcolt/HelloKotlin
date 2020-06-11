@@ -1,4 +1,5 @@
 import java.util.*
+import kotlin.math.truncate
 
 fun main(args: Array<String>) {
     var canAddFish = fitMoreFish(currentFish = listOf(2,2,2,2), hasDecoration = true)
@@ -11,8 +12,33 @@ fun shouldChangeWater(
     temperature: Int = 22,
     dirty: Int = 20
 ): Boolean {
-    return true
+    return when {
+        isTooHot(temperature)-> true
+        isDirty(dirty) -> true
+        isSunday(day) -> true
+        else -> false
+    }
 }
+var dirty = 20
+
+val walterFilter: (Int) -> Int = {dirty / 2}
+fun feedFish(dirty: Int) = dirty + 10
+
+fun updateDirty(dirty: Int, operation: (Int) -> Int): Int {
+    return operation(dirty)
+}
+
+fun dirtyProcessor() {
+    dirty = updateDirty(dirty, walterFilter)
+    dirty = updateDirty(dirty, ::feedFish)
+    dirty = updateDirty(dirty) { dirty ->
+        dirty + 50
+    }
+}
+
+fun isTooHot(temperature: Int) = temperature > 30
+fun isDirty(dirty: Int) = dirty > 30
+fun isSunday(day: String) = day == "Sunday"
 
 fun feedTheFish() {
     val day = randomDay()
@@ -21,6 +47,7 @@ fun feedTheFish() {
     if (shouldChangeWater(day)) {
         println("Change the water today")
     }
+    dirtyProcessor()
 }
 
 fun randomDay(): String {
@@ -57,3 +84,4 @@ fun fitMoreFish(
 
     return fishOverflow
 }
+
