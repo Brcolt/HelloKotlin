@@ -1,9 +1,11 @@
+package Funcoes
+
 fun main(args: Array<String>) {
 //    var fortune: String
-//    var birthDay = getBirthDay()
+//    var birthDay = Funcoes.getBirthDay()
     println(whatShouldIDoToday("happy"))
 //    for(i in 1..10) {
-//        fortune = getFortuneCookie(birthDay)
+//        fortune = Funcoes.getFortuneCookie(birthDay)
 //        println("\n Your fortune is $fortune")
 //        if(fortune.contains("Take it easy")) break
 //    }

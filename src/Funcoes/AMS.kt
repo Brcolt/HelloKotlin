@@ -1,8 +1,9 @@
+package Funcoes
+
 import java.util.*
-import kotlin.math.truncate
 
 fun main(args: Array<String>) {
-    var canAddFish = fitMoreFish(currentFish = listOf(2,2,2,2), hasDecoration = true)
+    var canAddFish = fitMoreFish(currentFish = listOf(2, 2, 2, 2), hasDecoration = true)
 
     println(canAddFish)
 }
@@ -13,7 +14,7 @@ fun shouldChangeWater(
     dirty: Int = 20
 ): Boolean {
     return when {
-        isTooHot(temperature)-> true
+        isTooHot(temperature) -> true
         isDirty(dirty) -> true
         isSunday(day) -> true
         else -> false
@@ -21,7 +22,7 @@ fun shouldChangeWater(
 }
 var dirty = 20
 
-val walterFilter: (Int) -> Int = {dirty / 2}
+val walterFilter: (Int) -> Int = { dirty / 2}
 fun feedFish(dirty: Int) = dirty + 10
 
 fun updateDirty(dirty: Int, operation: (Int) -> Int): Int {
@@ -29,11 +30,16 @@ fun updateDirty(dirty: Int, operation: (Int) -> Int): Int {
 }
 
 fun dirtyProcessor() {
-    dirty = updateDirty(dirty, walterFilter)
-    dirty = updateDirty(dirty, ::feedFish)
-    dirty = updateDirty(dirty) { dirty ->
-        dirty + 50
-    }
+    dirty = updateDirty(
+        dirty,
+        walterFilter
+    )
+    dirty =
+        updateDirty(dirty, ::feedFish)
+    dirty =
+        updateDirty(dirty) { dirty ->
+            dirty + 50
+        }
 }
 
 fun isTooHot(temperature: Int) = temperature > 30

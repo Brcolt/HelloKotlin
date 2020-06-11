@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eaa15a2-b663-4950-b5dd-8f2d188ded08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aquarium/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicios/SimpleSpice.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicios/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/AMSKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/AMSKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/QuizesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/QuizesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quizes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/quizes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcoes/AMS.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quizes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcoes/quizes.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -42,7 +47,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Kotlin.QuizesKt">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Estudos\avançado\HelloKotlin\src\Funcoes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
     <configuration name="AMSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="HelloKotlin" />
       <option name="VM_PARAMETERS" value="" />
@@ -50,8 +60,34 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="AMSKt" />
+      <option name="MAIN_CLASS_NAME" value="Funcoes.AMSKt" />
       <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="HelloKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Exercicios.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="HelloKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Aquarium.MainKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -63,7 +99,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="QuizesKt" />
+      <option name="MAIN_CLASS_NAME" value="Funcoes.QuizesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,6 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.QuizesKt" />
         <item itemvalue="Kotlin.AMSKt" />
       </list>
@@ -103,7 +141,7 @@
       <workItem from="1591462097116" duration="2818000" />
       <workItem from="1591725092110" duration="6659000" />
       <workItem from="1591812405262" duration="2466000" />
-      <workItem from="1591886955170" duration="1084000" />
+      <workItem from="1591886955170" duration="4006000" />
     </task>
     <servers />
   </component>
@@ -115,22 +153,22 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591462264420" />
-    <state width="1877" height="230" key="GridCell.Tab.0.bottom" timestamp="1591813815275">
+    <state width="1877" height="230" key="GridCell.Tab.0.bottom" timestamp="1591891274470">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591813815275" />
-    <state width="1877" height="230" key="GridCell.Tab.0.center" timestamp="1591813815275">
+    <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591891274470" />
+    <state width="1877" height="230" key="GridCell.Tab.0.center" timestamp="1591891274469">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591813815275" />
-    <state width="1877" height="230" key="GridCell.Tab.0.left" timestamp="1591813815275">
+    <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591891274469" />
+    <state width="1877" height="230" key="GridCell.Tab.0.left" timestamp="1591891274469">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591813815275" />
-    <state width="1877" height="230" key="GridCell.Tab.0.right" timestamp="1591813815275">
+    <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591891274469" />
+    <state width="1877" height="230" key="GridCell.Tab.0.right" timestamp="1591891274469">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591813815275" />
+    <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591891274469" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591734704538">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -151,9 +189,9 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1399" y="257" width="877" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591725737436" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591461843777">
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591891099390">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591461843777" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591891099390" />
   </component>
 </project>
