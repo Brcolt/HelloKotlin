@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eaa15a2-b663-4950-b5dd-8f2d188ded08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aquarium/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicios/SimpleSpice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicios/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aquarium/Fish.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicios/Spice.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/AMSKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/AMSKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/QuizesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/QuizesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcoes/AMS.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quizes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcoes/quizes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/Aquarium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/Aquarium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Aquarium/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/Exercicios/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/Exercicios/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/Aquarium.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aquarium/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aquarium/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicios/SimpleSpice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicios/SimpleSpice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicios/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicios/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -30,6 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cim1rPdquiQdiAR8UBmYnoxqNu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -141,7 +144,8 @@
       <workItem from="1591462097116" duration="2818000" />
       <workItem from="1591725092110" duration="6659000" />
       <workItem from="1591812405262" duration="2466000" />
-      <workItem from="1591886955170" duration="4006000" />
+      <workItem from="1591886955170" duration="4589000" />
+      <workItem from="1591972657087" duration="2806000" />
     </task>
     <servers />
   </component>
@@ -153,22 +157,22 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1506" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591462264420" />
-    <state width="1877" height="230" key="GridCell.Tab.0.bottom" timestamp="1591891274470">
+    <state width="1877" height="230" key="GridCell.Tab.0.bottom" timestamp="1591975477386">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591891274470" />
-    <state width="1877" height="230" key="GridCell.Tab.0.center" timestamp="1591891274469">
+    <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591975477386" />
+    <state width="1877" height="230" key="GridCell.Tab.0.center" timestamp="1591975477386">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591891274469" />
-    <state width="1877" height="230" key="GridCell.Tab.0.left" timestamp="1591891274469">
+    <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591975477386" />
+    <state width="1877" height="230" key="GridCell.Tab.0.left" timestamp="1591975477386">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591891274469" />
-    <state width="1877" height="230" key="GridCell.Tab.0.right" timestamp="1591891274469">
+    <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591975477386" />
+    <state width="1877" height="230" key="GridCell.Tab.0.right" timestamp="1591975477386">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591891274469" />
+    <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591975477386" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591734704538">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
