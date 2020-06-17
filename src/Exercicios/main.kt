@@ -1,9 +1,17 @@
 package Exercicios
 
-fun main(args: Array<String>){
-    val simpleSpice = SimpleSpice()
-    val spice1 = Spice(name = "Pepper", spiciness = "hot")
-    val spiceList = spice1.filter { it.heat < 5}
+fun main(args: Array<String>) {
+    val spice = listOf(
+        Spice("curry", "mild"),
+        Spice("pepper", "medium"),
+        Spice("cayanne", "hot"),
+        Spice("ginger", "mild"),
+        Spice("red curry", "medium"),
+        Spice("green curry", "mild"),
+        Spice("hot pepper", "mexican")
+    )
+    val spiceLevel = spice.filter { it.heat > 5 }
 
-    println(spice1)
+    println(spiceLevel.sortedBy { it.heat })
+
 }

@@ -1,21 +1,38 @@
 package Aquarium
 
 fun main (args: Array<String>) {
-    buildAquarium()
+    delegate()
 }
-fun buildAquarium() {
-    val myAquarium = Aquarium()
-    println("Lenght: ${myAquarium.lenght} " +
-            "Width: ${myAquarium.width} " +
-            "Height: ${myAquarium.heigth} "
-    )
 
-    val smallAquarium = Aquarium(numberOfFish = 10)
+fun delegate() {
+    val pleco = Plecostumos()
+    println("Fish has color ${pleco.color}")
+    pleco.eat()
+}
 
-    println(myAquarium.volume)
-    println("My small aquarium: \n" +
-            "length: ${smallAquarium.lenght} \n" +
-            "height: ${smallAquarium.heigth} \n" +
-            "width: ${smallAquarium.width}")
+interface FishAction {
+    fun eat()
+}
 
+interface FishColor {
+    val color: String
+}
+
+class Plecostumos(fishColor: FishColor = GoldColor):
+        FishAction by PrintingFishAction("a lot of algae"),
+        FishColor by fishColor
+
+
+object GoldColor: FishColor {
+    override val color = "gold"
+}
+
+object RedColor: FishColor {
+    override val color = "red"
+}
+
+class PrintingFishAction (val food: String): FishAction {
+    override fun eat() {
+        println(food)
+    }
 }
